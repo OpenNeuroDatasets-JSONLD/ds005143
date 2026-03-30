@@ -1,7 +1,14 @@
 {
     "participant_id": {
         "LongName": "Participant ID",
-        "Description": "Unique ID"
+        "Description": "Unique ID",
+        "Annotations": {
+            "IsAbout": {
+                "TermURL": "nb:ParticipantID",
+                "Label": "Participant ID"
+            },
+            "VariableType": "Identifier"
+        }
     },
     "sex": {
         "LongName": "Participant sex",
@@ -31,31 +38,31 @@
         "LongName": "Researcher",
         "Description": "Researcher"
     },
-"pathology": {
+    "pathology": {
         "Description": "The diagnosis of pathology of the participant",
         "LongName": "Pathology name",
         "Levels": {
             "HC": "Healthy Control",
             "DCM": "Degenerative Cervical Myelopathy (synonymous with CSM - Cervical Spondylotic Myelopathy)",
-	    "FM": "Fibromyalgia"
-            }
+            "FM": "Fibromyalgia"
+        }
     },
     "moco_software": {
-     "LongName": "MotioncorrectionSoftware",
-     "Description": "Software used for motion-correction of the fMRI data",
-     "Levels": {
-       "SCT": "Spinal Cord Toolbox",
-       "FSL": "FMRIB Software Library",
-       "SPM": "Statistical Parametric Mapping",
-       "AFNI": "Analysis of Functional NeuroImages"
-    }
-},
+        "LongName": "MotioncorrectionSoftware",
+        "Description": "Software used for motion-correction of the fMRI data",
+        "Levels": {
+            "SCT": "Spinal Cord Toolbox",
+            "FSL": "FMRIB Software Library",
+            "SPM": "Statistical Parametric Mapping",
+            "AFNI": "Analysis of Functional NeuroImages"
+        }
+    },
     "segmentation_type": {
-      "LongName": "SegmentationType",
-      "Description": "Type of binary spinal cord segmentation",
-      "Levels": {
-        "Manual": "Manual segmentation of the spinal cord",
-        "Automated": "Automated segmentation of the spinal cord"
-}
-}
+        "LongName": "SegmentationType",
+        "Description": "Type of binary spinal cord segmentation",
+        "Levels": {
+            "Manual": "Manual segmentation of the spinal cord",
+            "Automated": "Automated segmentation of the spinal cord"
+        }
+    }
 }
